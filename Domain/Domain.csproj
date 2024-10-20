@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Model\" />
+    <Folder Include="Repository\" />
+    <Folder Include="ServiceNUnitTest\" />
+    <Folder Include="Service\" />
+    <Folder Include="UI\" />
+  </ItemGroup>
+
+</Project>
